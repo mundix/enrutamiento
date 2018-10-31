@@ -10,6 +10,6 @@ const enrutador = new VueRouter({
 
 new Vue({
   el: '#app',
-  route: enrutador,
+  router: enrutador, //router: nombre del enrutador definidio en const name = new VueRouter;
   render: h => h(App)
 })
